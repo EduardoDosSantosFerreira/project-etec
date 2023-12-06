@@ -1,6 +1,6 @@
 # Escola Técnica Estadual de Itanhaém
 
-![Escola](src\assets\img\hme\siteimg.png)
+![Escola](src/assets/img/hme/siteimg.png)
 
 Bem-vindo ao site oficial da Escola Técnica Estadual de Itanhaém! Somos uma instituição de ensino comprometida com a formação técnica e profissional de excelência, localizada na encantadora cidade de Itanhaém, no estado de São Paulo.
 
@@ -10,7 +10,7 @@ A Escola Técnica Estadual de Itanhaém é referência no fornecimento de educa�
 
 ## Cursos Oferecidos
 
-![Cursos](src\assets\img\hme\siteimg2.png)
+![Cursos](src/assets/img/hme/siteimg2.png)
 
 Oferecemos uma gama diversificada de cursos técnicos, proporcionando aos alunos a oportunidade de adquirir habilidades práticas e teóricas em diversas áreas. Desde tecnologia da informação até engenharia, nossos programas são desenvolvidos para atender às demandas do mercado de trabalho atual.
 
@@ -25,7 +25,7 @@ Oferecemos uma gama diversificada de cursos técnicos, proporcionando aos alunos
 
 ## Estrutura e Recursos
 
-![Estrutura](src\assets\img\hme\siteimg4.png)
+![Estrutura](src/assets/img/hme/siteimg4.png)
 
 Contamos com instalações modernas e equipamentos de última geração, proporcionando um ambiente propício para o aprendizado prático. Nossos laboratórios e salas de aula são projetados para estimular a criatividade e o desenvolvimento profissional dos nossos alunos.
 
