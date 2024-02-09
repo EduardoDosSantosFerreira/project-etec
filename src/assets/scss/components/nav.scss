@@ -1,0 +1,162 @@
+
+#nav {
+    padding-left: 18%;
+  }
+  
+  .navbar .navbar-collapse .navbar-nav > li > a {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 34px 21px;
+    border-bottom: 5px solid transparent;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+  }
+  
+  .slide-down {
+    animation: slideDown 0.5s ease-out;
+  }
+  
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .navbar .navbar-collapse .navbar-nav > li > a:hover {
+    background-color: #f1f1f1;
+    border-bottom: 5px solid #d3e6c7;
+    color: #a71d2a;
+  }
+
+@media screen and (max-width: 750px) and (min-width: 750px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 31px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 375px) and (min-width: 375px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 20px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 412px) and (min-width: 412px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 30px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 390px) and (min-width: 390px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 31px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 393px) and (min-width: 393px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 32px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 360px) and (min-width: 360px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 25px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 421px) and (min-width: 421px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 36px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 414px) and (min-width: 414px) {
+    .navbar .navbar-collapse .navbar-nav li > a {
+      padding: 34.3px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 768px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 43px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 820px) and (min-width: 820px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 53px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 912px) and (min-width: 912px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 65px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 540px) and (min-width: 540px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 23px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 280px) and (min-width: 280px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 19px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 1024px) and (min-width: 1024px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 16px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 360px) and (min-width: 360px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 18.3px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 600px) and (min-width: 600px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 39px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 320px) and (min-width: 320px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 19px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 712px) and (min-width: 712px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 50px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 800px) and (min-width: 800px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 59px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 384px) and (min-width: 384px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 18.3px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  @media screen and (max-width: 640px) and (min-width: 640px) {
+    .navbar .navbar-collapse .navbar-nav > li > a {
+      padding: 1.5px 21px;
+      font-size: 0.87rem;
+    }
+  }
+  
