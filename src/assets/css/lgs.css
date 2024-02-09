@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -210,4 +211,218 @@ label {
   position: absolute;
   transform: translateX(1120%);
   transition: all 2.5s;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #ff000076, #00ff004c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+.login-box {
+  width: 700px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.login-box img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.button {
+  position: relative;
+  background-color: transparent;
+  color: #e8e8e8;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.button::before {
+  content: "Bem-Vindo!";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(135deg, #ff0000, rgba(0, 0, 0, 0.785));
+  transform: translate(0%, 90%);
+  z-index: 99;
+  position: relative;
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.button::after {
+  content: "Visitante";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transform-origin: top;
+  transform: translate(0%, -100%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.button:hover::before {
+  transform: translate(0%, 0%);
+}
+.button:hover::after {
+  transform: translate(0%, -200%);
+}
+.button:focus {
+  outline: none;
+}
+.button:active {
+  scale: 0.95;
+}
+#btnlg {
+  background-color: rgb(9, 180, 0);
+  color: aliceblue;
+  transition: background-color 0.3s; 
+}
+#btnlg:hover {
+  background-color: darkred; 
+}
+.group {
+  position: relative;
+}
+.input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #515151;
+  background: transparent;
+}
+.input:focus {
+  outline: none;
+}
+label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.input:focus ~ label,
+.input:valid ~ label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264ae;
+}
+.bar {
+  position: relative;
+  display: block;
+  width: 200px;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264ae;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+  left: 50%;
+}
+.bar:after {
+  right: 50%;
+}
+.input:focus ~ .bar:before,
+.input:focus ~ .bar:after {
+  width: 50%;
+}
+.highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+.input:focus ~ .highlight {
+  animation: inputHighlighter 0.3s ease;
+}
+@keyframes inputHighlighter {
+  from {
+    background: #5264ae;
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+.bts {
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  border: 0px solid #0b2447;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #008000;
+  overflow: hidden;
+  transition: all 1.5s;
+  cursor: pointer;
+}
+.hover {
+  transform: translateX(0%);
+  transition: all 0.5s;
+}
+.bts::after {
+  position: absolute;
+  content: attr(data-text);
+  left: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+.bts:hover::after {
+  transform: translateX(10%);
+  transition: all 0.5s;
+}
+.bts:hover .hover {
+  position: absolute;
+  transform: translateX(1120%);
+  transition: all 2.5s;
+>>>>>>> 8639b17c6c51f7d48ca490de92a7caa6b6e24e9c
 }

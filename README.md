@@ -41,4 +41,8 @@ Se você está interessado em ingressar na Escola Técnica Estadual de Itanhaém
 
 Siga-nos nas redes sociais para ficar atualizado sobre eventos, notícias e realizações da nossa comunidade acadêmica. Estamos ansiosos para recebê-lo em nossa escola e ser parte do seu percurso educacional rumo ao sucesso profissional. 
 
+<<<<<<< HEAD
 **Escola Técnica Estadual de Itanhaém - Preparando o Futuro, Transformando Vidas!**
+=======
+**Escola Técnica Estadual de Itanhaém - Preparando o Futuro, Transformando Vidas!**
+>>>>>>> 8639b17c6c51f7d48ca490de92a7caa6b6e24e9c
