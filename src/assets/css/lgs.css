@@ -88,10 +88,10 @@ body {
 #btnlg {
   background-color: rgb(9, 180, 0);
   color: aliceblue;
-  transition: background-color 0.3s; 
+  transition: background-color 0.3s;
 }
 #btnlg:hover {
-  background-color: darkred; 
+  background-color: darkred;
 }
 .group {
   position: relative;

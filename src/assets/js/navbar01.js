@@ -1,7 +1,7 @@
 // Função para adicionar o HTML ao DOM
 function adicionarLoginAoDOM() {
-    var div = document.createElement('div');
-    div.innerHTML = `
+  var div = document.createElement("div");
+  div.innerHTML = `
     <!--inicio da navbar-->
     <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top slide-down">
       <a class="navbar-brand" href="../pages/hme.html">
@@ -114,8 +114,8 @@ function adicionarLoginAoDOM() {
     </nav>
     <!--fim da navbar-->
     `;
-    
-    document.body.appendChild(div);
+
+  document.body.appendChild(div);
 }
 
 adicionarLoginAoDOM();

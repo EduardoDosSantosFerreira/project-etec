@@ -1,8 +1,8 @@
 // Função para adicionar o HTML ao DOM
 function adicionarLoginAoDOM() {
-    // Crie um elemento div
-    var div = document.createElement('div');
-    div.innerHTML = `
+  // Crie um elemento div
+  var div = document.createElement("div");
+  div.innerHTML = `
     <!DOCTYPE html>
     <html lang="pt-br">
     
@@ -57,9 +57,9 @@ function adicionarLoginAoDOM() {
     
     </html>
     `;
-    
-    // Adicione o elemento div ao final do corpo do documento
-    document.body.appendChild(div);
+
+  // Adicione o elemento div ao final do corpo do documento
+  document.body.appendChild(div);
 }
 
 // Chame a função para adicionar o login ao DOM

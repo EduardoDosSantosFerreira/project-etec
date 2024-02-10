@@ -303,19 +303,27 @@ body {
 }
 
 @keyframes shake-color-change {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(0);
     /* Mantém a posição inicial */
     color: #800000;
     /* Vermelho escuro */
   }
-  10%, 30%, 50%, 70%, 90% {
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     transform: translateX(5px);
     /* Chacoalha para a direita */
     color: #800000;
     /* Vermelho escuro */
   }
-  20%, 40%, 60%, 80% {
+  20%,
+  40%,
+  60%,
+  80% {
     transform: translateX(-5px);
     /* Chacoalha para a esquerda */
     color: #008000;
