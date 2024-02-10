@@ -2,7 +2,7 @@
 
 ![Escola](src/assets/img/hme/siteimg.png)
 
-Bem-vindo ao site oficial da Escola Técnica Estadual de Itanhaém! Somos uma instituição de ensino comprometida com a formação técnica e profissional de excelência, localizada na encantadora cidade de Itanhaém, no estado de São Paulo.
+Bem-vindo ao site da Escola Técnica Estadual de Itanhaém! Somos uma instituição de ensino comprometida com a formação técnica e profissional de excelência, localizada na encantadora cidade de Itanhaém, no estado de São Paulo.
 
 ## Sobre Nós
 
