@@ -1,8 +1,11 @@
-@charset "UTF-8";
-body {
-  background-color: #ffffff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+body {
+  padding-top: 10vh;
+}
 body a,
 body a:hover {
   color: #5a9d33;
@@ -106,12 +109,6 @@ body a:hover {
 
 #und-txt {
   font-size: 20px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 [hidden] {
